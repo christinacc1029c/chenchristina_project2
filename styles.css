@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+body{
+	padding:0;
+	margin:0;
+	margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    border-right-width: 0%;
+    border-radius: 0%;
+    background-size: cover;
+}
+
+img{position:absolute}
+
+.light_lamp {
+
+  left: 1111px;
+  top: 400px;
+  opacity: 0;
+  transition: opacity 0s;
+}
+.light_lamp:hover{
+	opacity: 1;
+}
+
+.flower {
+  left: 101px;
+  top: 269px;
+	opacity: 0;
+	trandition: opacity 0s;
+}
+
+.flower:hover {
+	opacity: 1;
+}
+
+.teddy {
+  left: 1394px;
+  top: 645px;
+	opacity:0;
+	transition:opacity 0;
+}
+
+.teddy:hover {
+	opacity: 1;
+}
+
+.cat_b {
+  left: 806px;
+  top: 693px;
+	opacity:0;
+	transition:opacity 0;
+}
+
+.cat_b:hover {
+	opacity:1;
+}
+
+.cat_yellow {
+  left: 693px;
+  top: 841px;
+	opacity:0;
+	transition: opacity 0s;
+}
+
+.cat_yellow:hover{
+	opacity:1;
+}
+
+
+.book {
+  left: 401px;
+  top: 305px;
+	opacity:0;
+	transition: opacity 0s;
+}
+
+.book:hover {
+	opacity:1;
+}
+
+.Entrance {
+  left: 171px;
+  top: 501px;
+	opacity:0;
+	transition: opacity 0s;
+}
+
+.Entrance:hover{
+	opacity:1;
+}
+
+.girl_2 {
+  left: 997px;
+  top: 507px;
+	opacity:0;
+	transition: opacity 0s;
+}
+
+.girl_2:hover{
+	opacity: 1;
+}
+
+/*teddy room*/
+
+body{
+	padding:0;
+	margin:0;
+}
+
+img{position:absolute}
+
+.heart_3 {
+  left: 1418px;
+  top: 143px;
+	opacity: 0;
+	transition: opacity 0s;
+}
+
+.heart_3:hover{
+	opacity: 1;
+}
+
+
+.color {
+  left: 608px;
+  top:623px;
+	opacity: 0;
+	transition: opacity 0s;
+}
+
+.color:hover{
+	opacity:1;
+}
+
+
+
+/*page 2*/
+
+body{
+    padding: 0;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    border-right-width: 0%;
+    border-radius: 0%;
+    background-size: cover;
+}
+
+img{position:absolute}
+
+.flower_r {
+  left: 1285px;
+  top: 505px;
+	opacity: 0;
+	transition: opacity 0s;
+}
+
+.flower_r:hover {
+	opacity: 1;
+}
+
+.girl_a {
+  left: 660px;
+  top: 540px;
+	opacity: 0;
+	transition: opacity 0s;
+}
+
+.girl_a:hover {
+	opacity:1;
+}
+
+.ball {
+  left: 540px;
+  top: 340px;
+	opacity: 0;
+	transition: opacity 0s;
+}
+
+.ball:hover{
+	opacity: 1;
+}
+
+.duck {
+  left: 0px;
+  top: 680px;
+	opacity: 0;
+	transition: 0s;
+}
+
+.duck:hover {
+	opacity: 1;
+}
+
+.moon {
+  left: 180px;
+  top: 450px;
+	opacity: 0;
+	transition: opacity 0s;
+}
+
+.moon:hover {
+	opacity: 1;
+}
+
+.medi {
+  left: 120px;
+  top: 300px;
+	opacity: 0;
+	transition: opacity 0s;
+}
+
+.medi:hover {
+	opacity: 1;
+}
+
+.FIND_ME_____ {
+  left: 940px;
+  top: 125px;
+	opacity: 0;
+	transition: opacity 0s;
+}
+
+.FIND_ME_____:hover {
+	opacity: 1;
+}
+
+/*final page*/
+body{
+	padding: 0;
+	margin: 0;
+}
+
+img {position: absolute }
+
+.heart {
+  left: 245px;
+  top: 450px;
+	opacity: 0;
+	transition: opacity 0s;
+}
+
+.heart:hover {
+	opacity: 1;
+}
+

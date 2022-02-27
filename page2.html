@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+ 
+	  <title>Entrance World</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+	
+	<body>
+		<audio id="myAudio">
+		<source src="../audio/audio page1.mp3" type="audio/mpeg" >	</audio>
+		
+	<iframe height="0" width="0" frameborder="0" src="audio/audio page1.mp3"></iframe>
+    <img src="../images/teddy-room.gif" onClick="playAudio()" height="900" width="1550" alt="room"/>
+	<a href="page3.html"><img src="../images/images/_0003_heart-3.png" height="90" class="heart_3" alt="teddy" ></a> <img src="../images/images/color.png" class="color" height="75" alt="color"/>		
+	
+	
+			<!-- JScript goes down here -->
+<script>
+	
+	var x = document.getElementById("myAudio"); 
+
+	function playAudio() { 
+	  x.play(); 
+	} 
+
+	function pauseAudio() { 
+	  x.pause(); 
+	} 
+	
+</script>
+    </body>
+	
+	
+	
+</html>
+	

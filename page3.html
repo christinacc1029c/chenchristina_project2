@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+ 
+	  <title>CC World</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+	
+	<body>
+<!--		<embed src="../page2.mp3" autostart="true" loops="true" width="0" height="0">-->
+		
+			<audio id="myAudio">
+		<source src="../audio/Duck.mp3" type="audio/mpeg" >	</audio>
+		
+	<iframe height="0" width="0" frameborder="0" autostart="true" loops="true" src="../page2.mp3"> </iframe>
+	
+		
+		<img src="../images/images/page2.gif" height="900" width="1500" alt="room"/>
+	<img src="../images/images/ball.png" height="370" width="400" class="ball" alt="ball"/>
+		
+		<img src="../images/images/duck.png" height="220" width="480" class="duck" onClick="playAudio()" alt="duck"/>
+		<img src="../images/images/FIND-ME,...-.png" height="120" width="550" class="FIND_ME_____" alt="find me"/>
+	 	<img src="../images/images/flower-r.png" class="flower_r" alt="flower"/>
+		<a href="page4.html"><img src="../images/images/girl-a.png" class="girl_a" alt="girla"></a> <img src="../images/images/medi.png" height="240" width="140" class="medi" alt="medi"/>
+		<img src="../images/images/moon.png" height="170" width="170" class="moon" alt="moon"/>
+		
+		
+	<!-- JScript goes down here -->
+<script>
+	
+	var x = document.getElementById("myAudio"); 
+
+
+	function playAudio() { 
+	  x.play(); 
+	} 
+
+	function pauseAudio() { 
+	  x.pause(); 
+	} 
+
+	
+</script>
+	
+    </body>
+	
+	
+	
+</html>
+	

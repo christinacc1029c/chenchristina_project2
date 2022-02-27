@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+ 
+	  <title>final page</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+	
+	<body>
+		<audio id="myAudio">
+		<source src="../audio/final.mp3" type="audio/mpeg" >	</audio>
+	<iframe height="0" width="0" frameborder="0" src="audio/audio page1.mp3"></iframe>
+   <img src="../images/final page.gif" height="900" width="1500" alt="final"/>
+	<img src="../images/_0001s_0008_heart.png" class="heart" onClick="playAudio()" alt="heart"/>
+		
+		<!-- JScript goes down here -->
+<script>
+	
+	var x = document.getElementById("myAudio"); 
+
+	function playAudio() { 
+	  x.play(); 
+	} 
+
+	function pauseAudio() { 
+	  x.pause(); 
+	} 
+	
+</script>
+		
+    </body>
+
+	
+	
+</html>
+	
